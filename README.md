@@ -1,5 +1,12 @@
 # 📊 WhatsApp Chat Analyzer
 
+ **🔗 Live Demo:**
+
+🚀 Try the live application:  
+https://o7fdqbfvnubzjnutera7ow.streamlit.app
+
+
+
 **WhatsApp Chat Analyzer** is a **Python-based data analysis and visualization application** that helps users extract **meaningful insights** from exported WhatsApp chat files (**.txt format**).
 
 The application processes **raw chat data** and converts it into **structured information** using **regex-based preprocessing**. It then generates **clear statistics**, **interactive visualizations**, and **analytical insights** to help understand **communication patterns**.
@@ -77,7 +84,7 @@ This project demonstrates the use of **data analysis**, **visualization**, and *
 
 ---
 
-**📂 How to Use:**
+**##📂 How to Use:**
 
 1.Export a WhatsApp chat as a .txt file (without media)
 
