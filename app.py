@@ -3,6 +3,11 @@ import preprocessor,helper
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+import nltk
+nltk.download('punkt')
+
+from textblob import TextBlob
+
 st.sidebar.title("Whatsapp Chat Analyzer")
 
 uploaded_file = st.sidebar.file_uploader("Choose a file")
