@@ -8,6 +8,11 @@ Users can explore features such as **message statistics**, **user activity trend
 
 This project demonstrates the use of **data analysis**, **visualization**, and **basic NLP techniques** to transform **unstructured chat data** into **useful and interpretable insights**.
 
+
+---
+
+## 🚀 Key Features
+
 ### 📊 Chat Statistics
 - Total messages, words, media files, and links shared  
 
@@ -33,6 +38,9 @@ This project demonstrates the use of **data analysis**, **visualization**, and *
 ### 🎨 Interactive Streamlit Dashboard
 - Simple and user-friendly interface for exploring insights 
 
+
+---
+
 ## 🛠️ Technologies Used
 
 - 🐍 Python  
@@ -43,6 +51,8 @@ This project demonstrates the use of **data analysis**, **visualization**, and *
 - ☁️ WordCloud  
 - 😊 TextBlob (Sentiment Analysis)
 
+
+---
 
 ## 📸 Screenshots
 
@@ -65,6 +75,8 @@ This project demonstrates the use of **data analysis**, **visualization**, and *
 ![Sentiment](images/sentiment.png)
 
 
+---
+
 **📂 How to Use:**
 
 1.Export a WhatsApp chat as a .txt file (without media)
@@ -76,6 +88,9 @@ This project demonstrates the use of **data analysis**, **visualization**, and *
 4.Explore insights and visualizations
 
 5.Export reports if needed
+
+
+---
 
 ## 🎯 Use Cases
 
@@ -95,17 +110,25 @@ This project demonstrates the use of **data analysis**, **visualization**, and *
    
 -  Exploring frequently used words and emojis
 
+
+---
+
 ## 📌 Project Status
 
 - ✅ Fully functional  
 - 🌐 Deployed using Streamlit  
 - 🔄 Open for future enhancements
 
+
+---
+
 - ## 👩‍💻 Author
   
-Deasanur Ankitha  
+**Deasanur Ankitha**  
 Python Developer | Data Analysis | Machine Learning Enthusiast
 
 
-⭐ If you found this project useful, consider giving it a star on GitHub!.
+---
+
+⭐ If you found this project useful, consider giving it a **star** on **GitHub!**.
         
