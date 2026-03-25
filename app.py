@@ -6,7 +6,6 @@ import seaborn as sns
 import nltk
 nltk.download('punkt')
 
-from textblob import TextBlob
 
 st.sidebar.title("Whatsapp Chat Analyzer")
 
