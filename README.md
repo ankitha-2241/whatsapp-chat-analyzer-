@@ -1,14 +1,12 @@
 # 📊 WhatsApp Chat Analyzer
 
-WhatsApp Chat Analyzer is a Python-based data analysis and visualization application that helps users extract meaningful insights from exported WhatsApp chat files (.txt format).
+**WhatsApp Chat Analyzer** is a **Python-based data analysis and visualization application** that helps users extract **meaningful insights** from exported WhatsApp chat files (**.txt format**).
 
-The application processes raw chat data and converts it into structured information using regex-based preprocessing. It then generates clear statistics, interactive visualizations, and analytical insights to help understand communication patterns.
+The application processes **raw chat data** and converts it into **structured information** using **regex-based preprocessing**. It then generates **clear statistics**, **interactive visualizations**, and **analytical insights** to help understand **communication patterns**.
 
-Users can explore features such as message statistics, user activity trends, word cloud visualization, emoji analysis, and sentiment analysis to better understand conversation behavior.
+Users can explore features such as **message statistics**, **user activity trends**, **word cloud visualization**, **emoji analysis**, and **sentiment analysis** to better understand **conversation behavior**.
 
-This project demonstrates the use of data analysis, visualization, and basic NLP techniques to transform unstructured chat data into useful and interpretable insights.
-
-## 🚀 Key Features
+This project demonstrates the use of **data analysis**, **visualization**, and **basic NLP techniques** to transform **unstructured chat data** into **useful and interpretable insights**.
 
 ### 📊 Chat Statistics
 - Total messages, words, media files, and links shared  
