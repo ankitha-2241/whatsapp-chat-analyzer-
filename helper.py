@@ -139,6 +139,29 @@ def activity_heatmap(selected_user,df):
     return user_heatmap
 
 
+def sentiment_analysis(selected_user, df):
+
+    if selected_user != 'Overall':
+        df = df[df['user'] == selected_user]
+
+    positive = 0
+    negative = 0
+    neutral = 0
+
+    for message in df['message']:
+
+        polarity = TextBlob(message).sentiment.polarity
+
+        if polarity > 0:
+            positive += 1
+        elif polarity < 0:
+            negative += 1
+        else:
+            neutral += 1
+
+    return positive, negative, neutral
+
+
 
 
 
