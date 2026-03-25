@@ -131,7 +131,19 @@ if uploaded_file is not None:
             fig,ax = plt.subplots()
             ax.pie(emoji_df[1].head(),labels=emoji_df[0].head(),autopct="%0.2f")
             st.pyplot(fig)
+            
 
+# Sentiment Analysis
+
+if st.button("Show Sentiment Analysis"):
+
+    positive, negative, neutral = helper.sentiment_analysis(selected_user, df)
+
+    st.subheader("Sentiment Analysis")
+
+    st.write("Positive Messages:", positive)
+    st.write("Negative Messages:", negative)
+    st.write("Neutral Messages:", neutral)
 
 
 
