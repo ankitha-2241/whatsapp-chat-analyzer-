@@ -1,16 +1,29 @@
-import re
-import pandas as pd
 
 def preprocess(data):
-    pattern = r'\d{1,2}/\d{1,2}/\d{2,4},\s\d{1,2}:\d{2}\s-\s'
+
+    data = data.replace('\u202f', ' ')
+    data = data.replace('\u200e', '')
+
+    # your regex pattern
+    pattern = r'\[?\d{1,2}/\d{1,2}/\d{2,4},\s\d{1,2}:\d{2}(?::\d{2})?\s?(?:AM|PM|am|pm)?\]?\s-\s'
 
     messages = re.split(pattern, data)[1:]
     dates = re.findall(pattern, data)
 
+
     df = pd.DataFrame({'user_message': messages, 'message_date': dates})
-    # convert message_date type
+
+    # Convert to string (prevents .str errors)
+    df['message_date'] = df['message_date'].astype(str)
+
+    # Clean separator
     df['message_date'] = df['message_date'].str.replace(' - ', '', regex=False)
-    df['message_date'] = pd.to_datetime(df['message_date'], format='%d/%m/%y, %H:%M', dayfirst=True)
+
+    # Convert safely (handles all formats)
+    df['message_date'] = pd.to_datetime(df['message_date'], errors='coerce', dayfirst=True)
+
+    # Remove invalid rows
+    df = df.dropna(subset=['message_date'])
 
     df.rename(columns={'message_date': 'date'}, inplace=True)
 
