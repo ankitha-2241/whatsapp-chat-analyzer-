@@ -3,7 +3,7 @@
  **🔗 Live Demo:**
 
 🚀 Try the live application:  
-https://o7fdqbfvnubzjnutera7ow.streamlit.app
+https://ekx4fqvtamsdbmesyoxjkz.streamlit.app/
 
 
 
