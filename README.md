@@ -66,17 +66,45 @@ This project demonstrates the use of **data analysis**, **visualization**, and *
 ### 🏠 Home Page
 ![Home](images/home.png)
 
+---
+
 ### 📊 Chat Statistics
-![Stats](images/stats.png)
+
+#### 🔝 Top Statistics
+![Top Stats](images/top_stats.png)
+
+#### 👥 Most Busy Users
+![Busy Users](images/most_busy_users.png)
+
+#### 📝 Most Common Words
+![Common Words](images/most_common_words.png)
+
+---
+
 
 ### 📈 Timeline Analysis
-![Timeline](images/timeline.png)
+
+#### 📅 Monthly Timeline
+![Monthly](images/monthly_timeline.png)
+
+#### 📆 Daily Timeline
+![Daily](images/daily_timeline.png)
+
+#### 🗺️ Activity Map
+![Activity](images/activity_map.png)
+
+---
+
 
 ### ☁️ Word Cloud
 ![WordCloud](images/wordcloud.png)
 
+---
+
 ### 😂 Emoji Analysis
 ![Emoji](images/emoji.png)
+
+---
 
 ### 😊 Sentiment Analysis
 ![Sentiment](images/sentiment.png)
